@@ -3,7 +3,8 @@ node_modules/
 
 # Tailwind CSS build files
 *.css
-!src/**/*.css
+src/**/*.css
+tailwind.config.js
 
 # package-lock
 package-lock.json
