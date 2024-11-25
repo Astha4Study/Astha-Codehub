@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Astha Codehub</title>
-        <link rel="stylesheet" href="/public/output.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astha Codehub</title>
+    <!-- Link to Output Tailwind CSS -->
+    <link rel="stylesheet" href="/public/output.css">
 
-    <body>
-        
-    </body>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="bg-slate-100">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="relative flex h-16 items-center justify-between">
+
+                <!-- Mobile perspective -->
+                <div class="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                    <button type="button"
+                        class="relative inline-flex items-center justify-center rounded-md p-2 text-slate-700"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="absolute -inset-0.5"></span>
+                        <span class="sr-only">Open Menu</span>
+
+                        <!-- Hamburger Closed-->
+                        <svg class="block size-9" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                        <!-- Hamburger Open -->
+                        <svg class="hidden size-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+
+                    <ul class="fixed hidden top-16 right-5 bg-gray-800 group-hover:block text-white py-2 shadow-lg">
+                        <li><a href="#" class="block px-4 py-2 my-1.5 text-sm hover:bg-gray-700">About Me</a></li>
+                        <li><a href="#" class="block px-4 py-2 -my-1.5 text-sm hover:bg-gray-700">Skills</a></li>
+                        <li><a href="#" class="block px-4 py-2 my-1.5 text-sm hover:bg-gray-700">Project</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-1 justify-between items-center sm:items-stretch sm:justify-between">
+                    <div class="flex shrink-0 items-center">
+                        <h4 class="font-poppins text-xl font-semibold cursor-pointer text-slate-800"><a href="#">As.</a>
+                        </h4>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:block items-center">
+                        <ul class="flex space-x-6 items-center text-md font-normal font-poppins text-slate-700">
+                            <li>
+                                <a href="#"
+                                    class="relative block px-2 py-1 rounded transition-all duration-300 hover:text-slate-800 active:text-slate-900">
+                                    About Me
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="relative block px-2 py-1 rounded transition-all duration-300 hover:text-slate-800 active:text-slate-900">
+                                    Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    class="relative block px-2 py-1 rounded transition-all duration-300 hover:text-slate-800 active:text-slate-900">
+                                    Project
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
 
 </html>
